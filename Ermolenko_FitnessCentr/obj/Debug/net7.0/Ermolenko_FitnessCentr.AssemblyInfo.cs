@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ermolenko_FitnessCentr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+039185fda0f389579c223c8b87b9b0e149633140")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ermolenko_FitnessCentr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ermolenko_FitnessCentr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
