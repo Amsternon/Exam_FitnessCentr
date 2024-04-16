@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Ermolenko_FitnessCentr/MainWindow.axaml" value="Ermolenko_FitnessCentr/Ermolenko_FitnessCentr.csproj" />
+        <entry key="Ermolenko_FitnessCentr/Registration.axaml" value="Ermolenko_FitnessCentr/Ermolenko_FitnessCentr.csproj" />
+        <entry key="Ermolenko_FitnessCentr/Services.axaml" value="Ermolenko_FitnessCentr/Ermolenko_FitnessCentr.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,65 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/Gallery/logo-abd.ico"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Ermolenko_FitnessCentr.clients"
+        Title="Services">
+    <Grid>
+        <Image Source="/Gallery/logo-abd.png"/>
+       <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Margin="10 12 00 0">
+                        <Button Name="Add" Content="Добавить" Click="Add_OnClick"></Button>
+                    </StackPanel>
+                    <StackPanel Margin="10 12 00 0">
+                        <Button Name="Delete" Click="Delete_OnClick"></Button>
+                    </StackPanel>
+                    <TextBlock>Введите для поиска</TextBlock>
+                    <TextBox Name="Search" Height="10" Width="200" TextChanged="Search_OnTextChanged"></TextBox>
+                </StackPanel>
+            </StackPanel>
+
+        <DataGrid Name="DataGrid" x:CompileBindings="False" Margin ="10 20 0 0" Height="250">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код Клиента" Binding="{Binding id}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Firstname}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Telephone}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Пароль" Binding="{Binding Password}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+           <StackPanel>
+               <TextBlock>Введите Id</TextBlock>
+               <TextBox Name="text1"></TextBox>
+            
+               <TextBlock>Введите Surname</TextBlock>
+               <TextBox Name="text2"></TextBox>
+            
+               <TextBlock>Введите Firstname</TextBlock>
+               <TextBox Name="text3"></TextBox>
+            
+               <TextBlock>Введите Telephone</TextBlock>
+               <TextBox Name="text4"></TextBox>
+               
+               <TextBlock>Введите Password</TextBlock>
+               <TextBox Name="text5"></TextBox>
+               
+               <TextBlock>Введите Date</TextBlock>
+               <TextBox Name="text6"></TextBox>
+               
+               <TextBlock>Введите Gender</TextBlock>
+               <TextBox Name="text7"></TextBox>
+           </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="10 20 20 0">
+                <Button Name="Back" Content="Назад" Click="Back_OnClick"></Button>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
